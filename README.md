@@ -1,8 +1,10 @@
 # Tire deg analysis
-I will explain it here
+This tire degradation analysis uses data from Assetto Corsa Competizione with an ETL that allow me to extract game data and turn it into a csv. I made this tire deg in R to figure out "visually" how a tire deg looks and what the method is to find tire deg. Secondly, this tire deg analysis main goal is to find the best lap to do pit stop by using the total race time. I'm still rather new to this analyzing motorsport telemetry, so any advice or critique would be well appreciated.
 
-## This is a subheading
-I don't know what to write here
+**Note that this model has a limitation, it's a linear model and doesn't include external factor.**
+
+Special thanks to [Isaac Gonzales](https://www.linkedin.com/in/isaac-gonzalez-8b9264143/) for the Python reference that made me understand the methodology of tire degradation. The optimal pit time would not be possible without it
+
 
 # Change log
 All notable changes will appear here 
@@ -14,7 +16,7 @@ Finally did it
 
 ### Added 
 - Added cumulative tire loss *Again*
-- Aggregated data (Mean total laptime) there was a lot of duplicates so I changed it into grouping per lap
+- Aggregated data (Mean total laptime) there were a lot of duplicates so I changed it into grouping per lap
 - N <- number of lap for easier math
 - Added pit time 22 seconds
 - Added slots allocation for results of for in loop
