@@ -7,6 +7,22 @@ I don't know what to write here
 # Change log
 All notable changes will appear here 
 
+## [1.0] - 2026 - 02 - 23
+Finally did it
+### Changed 
+- Slope rate was misleading, now it’s 0.07
+
+### Added 
+- Added cumulative tire loss *Again*
+- Aggregated data (Mean total laptime) there was a lot of duplicates so I changed it into grouping per lap
+- N <- number of lap for easier math
+- Added pit time 22 seconds
+- Added slots allocation for results of for in loop
+- Added for in loop, to count the optimal time by counting the total time needed for stint 1 and stint 2 + pit time delta.
+- Added data frame from results of for In loop
+- Added final plotting to find minimum total race time
+
+
 ## [0.2] - 2025-02-20
 ### Changed
 - fuel effect from 0.28 s/kg -> 0.03 s/kg
