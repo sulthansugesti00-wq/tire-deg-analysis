@@ -60,10 +60,11 @@ for (k in 1:(n-1)){
 }
 
 optimal_pit_data <- tibble(
-  total_time = c(optimal_pit),
+  total_time = (optimal_pit),
   pit_lap = c(1:(n-1)) #n-1 for easy change
 )
 
 # Plotting optimal pit
 ggplot(data=optimal_pit_data,aes(x=pit_lap, y=total_time))+geom_line(color="steelblue")+geom_vline(xintercept = which.min(optimal_pit_data$total_time),linetype="dashed"
 )
+
