@@ -10,7 +10,7 @@ Special thanks to [Isaac Gonzales](https://www.linkedin.com/in/isaac-gonzalez-8b
 All notable changes will appear here 
 
 ## [1.0] - 2026 - 02 - 23
-Finally did it
+Finished
 ### Changed 
 - Slope rate was misleading, now it’s 0.07
 
